@@ -1,0 +1,1 @@
+function resetPage() {    var htmls = document.getElementsByTagName('html')[0];    var deviceWidth = document.documentElement.clientWidth;    htmls.style.fontSize = deviceWidth*0.15625 + 'px';    //0.1333333333333333 = 100/750}window.onload = function(){    resetPage();}window.onresize = function(){    resetPage();}
